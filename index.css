@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .btn-toggle {
   position: fixed;
   bottom: 0;
@@ -113,6 +118,22 @@
   text-align: center;
   height: 30%;
   font-size: 1.5rem;
+}
+
+.home-page {
+  position: relative;
+  z-index: -10;
+}
+
+.navbar {
+
+}
+
+.greetings {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Wallpaper.jpg);
+  background-size: cover;
 }
 
 @keyframes hello {
